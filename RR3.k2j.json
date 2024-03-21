@@ -1,0 +1,195 @@
+{
+  "MappedOptions": [
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "B",
+        "PressState": "Press",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "R",
+        "PressState": "Press",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "LeftStickLeft",
+        "PressState": "Press",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "A",
+        "PressState": "Press",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "LeftStickRight",
+        "PressState": "Press",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "D",
+        "PressState": "Press",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "LeftTrigger",
+        "PressState": "Press",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "W",
+        "PressState": "Press",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "RightTrigger",
+        "PressState": "Press",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "S",
+        "PressState": "Press",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "B",
+        "PressState": "Release",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "R",
+        "PressState": "Release",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "LeftStickLeft",
+        "PressState": "Release",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "A",
+        "PressState": "Release",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "LeftStickRight",
+        "PressState": "Release",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "D",
+        "PressState": "Release",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "LeftTrigger",
+        "PressState": "Release",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "W",
+        "PressState": "Release",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "GamePadAction",
+        "Control": "RightTrigger",
+        "PressState": "Release",
+        "GamePadIndex": 0,
+        "Name": "{1} {0} on GamePad #{2}"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "S",
+        "PressState": "Release",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "AppCommandAction",
+        "Command": "Abort",
+        "Name": "Run App Command '{0}'"
+      },
+      "Trigger": {
+        "$type": "KeyboardTrigger",
+        "Keys": "Escape",
+        "PressState": "Release",
+        "Name": null
+      }
+    },
+    {
+      "Action": {
+        "$type": "LuaScriptAction",
+        "Script": "print(\"Shift + A was pressed\")",
+        "IsScriptPath": false,
+        "Name": "Lua Script: {0}"
+      },
+      "Trigger": {
+        "$type": "CombinedTrigger",
+        "Triggers": [
+          {
+            "$type": "KeyboardTrigger",
+            "Keys": "A",
+            "PressState": "Press",
+            "Name": null
+          },
+          {
+            "$type": "KeyboardTrigger",
+            "Keys": "LShiftKey",
+            "PressState": "Press",
+            "Name": null
+          }
+        ],
+        "Name": null
+      }
+    }
+  ],
+  "Name": "RR3",
+  "Version": 4
+}
